@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@action-validator/cli@^0.5.1":
+  "integrity" "sha512-pK9YBxxLk7nBMsYEenA7/A1J6zYPhDHa6qAod9niwbUXy1PFJ4Xl1XLqbiceiW/SosMt38MFwY6AfxSV1cgtsw=="
+  "resolved" "https://registry.npmjs.org/@action-validator/cli/-/cli-0.5.1.tgz"
+  "version" "0.5.1"
+  dependencies:
+    "chalk" "5.2.0"
+
+"@action-validator/core@^0.5.1", "@action-validator/core@0.5.1":
+  "integrity" "sha512-NFCME2vkFYXQAftJS+5V7jMfop2OZCmWBKX76WucQwccts+Qfyq8+Z/MC8d28S34k9aIDsN6Y2IUOJd9Ssu1Jg=="
+  "resolved" "https://registry.npmjs.org/@action-validator/core/-/core-0.5.1.tgz"
+  "version" "0.5.1"
+
 "@adobe/css-tools@^4.0.1":
   "integrity" "sha512-E09FiIft46CmH5Qnjb0wsW54/YQd69LsxeKUOWawmws1XWvyFGURnAChH0mlr7YPFR1ofwvUQfcL0J3lMxXqPA=="
   "resolved" "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.2.0.tgz"
@@ -6514,6 +6526,11 @@
   dependencies:
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
+
+"chalk@5.2.0":
+  "integrity" "sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA=="
+  "resolved" "https://registry.npmjs.org/chalk/-/chalk-5.2.0.tgz"
+  "version" "5.2.0"
 
 "char-regex@^1.0.2":
   "integrity" "sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw=="
