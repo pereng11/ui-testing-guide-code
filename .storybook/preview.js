@@ -1,6 +1,7 @@
 import React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import { initialize, mswDecorator } from "msw-storybook-addon";
+import ko from "axe-core/locales/ko.json";
 import { theme } from "../src/theme";
 
 initialize();
@@ -19,6 +20,9 @@ export const parameters = {
       { name: "blue", value: "#2cc5d2" },
       { name: "white", value: "#fff" },
     ],
+  },
+  a11y: {
+    config: { locale: ko },
   },
 };
 
